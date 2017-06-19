@@ -1,0 +1,41 @@
+html {
+  font-size: 100%;
+  line-height: 1.6;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+body {
+  padding: 0px;
+  margin: 0px;
+  min-width: 300px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  transition: 0.3s background; }
+header,
+footer,
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+a {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects; }
+a:active,
+a:hover { outline-width: 0; }
+.gui-container { width: 100%; max-width: 500px;	margin: 0px auto; padding: 0px 30px; }
+.gui-container>div { 
+	cursor: default;
+	background: rgba(33, 33, 33, 0.52);
+	opacity: 1;
+	transition: 0.5s opacity;
+	margin: 30% auto;
+	width: 100%; 
+	padding: 18px 22px; 
+	border-radius: 3px; }
+.gui-container>div.hidden { opacity: 0; }
+.gui-container>div.hidden:hover { opacity: 1; }
+.gui-container h1 { color: #585858; margin: 0px 0px 15px 0px; text-align: center; }
+.gui-container p { font-size: 15px; margin: 0px 0px 10px 0px; color: #fff;}
