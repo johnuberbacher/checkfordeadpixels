@@ -49,11 +49,8 @@ a:hover { outline-width: 0; }
 .gui-container>div.hidden:hover { opacity: 1; }
 .mobile-desc { border-top: 1px solid rgba(255, 255, 255, 0.2); padding-top: 10px; }
 @media (min-width: 750px) {
-	.mobile-desc {
-		display: none;
-	}
+	.mobile-desc { display: none; }
 }
-
 h1 { 
 	font-size: 20px;
 	font-size: 1.25rem;
@@ -68,4 +65,4 @@ h1 {
 @media (min-width: 750px) {
 	h1 { font-size: 32px; font-size: 2rem;}	
 }
-p { font-size: 15px; margin: 0px 0px 10px 0px; color: #fff;}
+p { font-size: 15px; margin: 0px 0px 10px 0px; color: #fff; }
