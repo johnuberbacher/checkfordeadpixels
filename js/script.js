@@ -18,6 +18,9 @@ $(document).keydown(function(e){
 		reload(); 
 	}
 });
+$(document).on("click", "body", function () {
+    reload(); 
+});
 $(document).bind("contextmenu", function (event) {
     event.preventDefault();
     reset();
