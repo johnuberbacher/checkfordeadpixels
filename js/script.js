@@ -18,7 +18,7 @@ $(document).keydown(function(e){
 		reload(); 
 	}
 });
-$(document).on("click", "body", function () {
+$(document).on("click touchstart", "html", function () {
     reload(); 
 });
 $(document).bind("contextmenu", function (event) {
